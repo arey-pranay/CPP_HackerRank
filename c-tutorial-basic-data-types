@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    char sample[100];
+    cin.getline(sample,100);
+    for(int i = 0 ; i <100&&sample[i]!='\0';i++){
+        if(sample[i] == ' '){
+            cout<<"\n";
+        }
+        else{
+            cout<<sample[i];
+        }
+    }
+      
+    return 0;
+}
